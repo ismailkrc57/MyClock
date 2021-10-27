@@ -65,6 +65,7 @@ a {
   /* max-width: 968px; */
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
+  text-align: center;
 }
 
 .grid {
@@ -96,6 +97,7 @@ a {
 .clock__content {
   align-self: center;
   row-gap: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .clock__twelve,
@@ -199,3 +201,9 @@ a {
 .clock__logo:hover {
   color: var(--first-color);
 }
+
+#mysaat,#mydakika,#mysaniye,.ayrac{
+  font-size:2.9rem;
+}
+
+
