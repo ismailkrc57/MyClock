@@ -95,6 +95,7 @@ a {
 }
 
 .clock__content {
+  padding-top: 50%;
   align-self: center;
   row-gap: 3.5rem;
   margin-bottom: 3rem;

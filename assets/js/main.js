@@ -10,7 +10,6 @@ const clock = () => {
   let hh = date.getHours() * 30,
     mm = date.getMinutes() * 6,
     ss = date.getSeconds() * 6;
-  console.log(hh, mm, ss);
   hour.style.transform = `rotateZ(${hh + mm / 12}deg)`;
   minutes.style.transform = `rotateZ(${mm}deg)`;
   seconds.style.transform = `rotateZ(${ss}deg)`;
